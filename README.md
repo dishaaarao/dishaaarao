@@ -1,4 +1,4 @@
-<h1 align="center">Hi 👋, I'm Trisha Rao</h1>
+<h1 align="center">Hi 👋, I'm Disha Rao</h1>
 <h3 align="center">Frontend Developer | UI/UX Enthusiast | CSE Student</h3>
 
 <p align="center">
