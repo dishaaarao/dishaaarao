@@ -45,7 +45,7 @@ The project emphasizes clean UI, proper asset management, and basic interactivit
 
 ## 📊 GitHub Stats
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=YOUR_USERNAME&show_icons=true&theme=tokyonight" />
+  <img src="https://github-readme-stats.vercel.app/api?username=dishaarao&show_icons=true&theme=tokyonight" />
 </p>
 
 ---
