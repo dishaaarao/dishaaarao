@@ -39,19 +39,20 @@ Built with a structured layout, styled sections, and responsive design for a smo
 SnapSync is a frontend-based web project focused on organizing and displaying image content in a structured and visually appealing way.  
 The project emphasizes clean UI, proper asset management, and basic interactivity to enhance the browsing experience.
 
-**Tech Used:** HTML, CSS, JavaScript
+**Tech Used:** HTML, CSS, JavaScript, React, Next.Js, MongoDB
 
 ---
 
 ## 📊 GitHub Stats
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=dishaarao&show_icons=true&theme=tokyonight" />
+  <img src="https://github-readme-stats.vercel.app/api?username=dishaaarao&show_icons=true&theme=tokyonight" />
 </p>
+
 
 ---
 
 ## 🤝 Let’s Connect
-- 💼 GitHub: https://github.com/YOUR_USERNAME  
+- 💼 GitHub: https://github.com/dishaaarao
 - 🎨 Portfolio: Coming Soon 🚀  
 
 <p align="center">
