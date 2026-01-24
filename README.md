@@ -53,6 +53,8 @@ The project emphasizes clean UI, proper asset management, and basic interactivit
 
 ## 🤝 Let’s Connect
 - 💼 GitHub: https://github.com/dishaaarao
+- 🔗 LinkedIn: https://www.linkedin.com/in/disha-rao-940558318
+- 💜 Instagram: https://www.instagram.com/disxhaa_?igsh=aTB4NXRud3ZyYXoy
 - 🎨 Portfolio: Coming Soon 🚀  
 
 <p align="center">
