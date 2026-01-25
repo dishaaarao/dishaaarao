@@ -1,49 +1,80 @@
+<!-- ======================= HERO ======================= -->
+<h1 align="center">✨ Disha Rao ✨</h1>
+
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&height=230&text=Disha%20Rao&fontSize=46&fontAlignY=40&color=gradient&animation=fadeIn" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Poppins&size=26&pause=900&color=FF6EC7&center=true&vCenter=true&width=700&lines=Frontend+Developer+💻;UI%2FUX+Designer+🎨;Animation+%26+Micro-interaction+Lover;Building+Beautiful+Web+Experiences" />
 </p>
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=24&pause=1000&color=F75C7E&center=true&vCenter=true&width=600&lines=Frontend+Developer;UI%2FUX+Enthusiast;Building+Clean+%26+Modern+Web+Experiences;Turning+Designs+into+Code" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=130"/>
 </p>
 
----
+<!-- ======================= ABOUT ======================= -->
+<h2 align="center">💎 About Me</h2>
 
-## 🪄 About Me
+<p align="center">
+  💻 Frontend Developer focused on clean, modern & animated UI <br/>
+  🎨 Obsessed with smooth transitions & aesthetic layouts <br/>
+  ⚡ Turning ideas into interactive experiences <br/>
+  🚀 Currently growing in React, UI/UX & Product Design
+</p>
 
-```txt
+<!-- ======================= TECH STACK ======================= -->
+<h2 align="center">🧠 Tech Stack</h2>
 
-💻 Frontend Developer
-🎨 UI/UX Focused
-🚀 Passionate about clean design & smooth animations
-🎓 B.Tech CSE Student
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=html,css,js,react,git,github,figma,vscode&theme=dark" />
+</p>
 
-🌱 Learning React, Product Design & Advanced UI
+<!-- ======================= GITHUB STATS ======================= -->
+<h2 align="center">📊 GitHub Analytics</h2>
 
-✨ Love building visually appealing real-world projects
+<p align="center">
+  <img width="48%" src="https://github-readme-stats.vercel.app/api?username=dishaaarao&show_icons=true&theme=tokyonight&hide_border=true" />
+  <img width="48%" src="https://github-readme-streak-stats.herokuapp.com/?user=dishaaarao&theme=tokyonight&hide_border=true" />
+</p>
 
-⚡ Obsessed with clean code & modern interfaces
+<!-- ======================= LANGUAGES ======================= -->
+<h2 align="center">🌍 Most Used Languages</h2>
 
-🛠️ Tech Stack
-<p align="center"> <img src="https://skillicons.dev/icons?i=html,css,js,react,tailwind,git,github,figma&theme=dark" /> </p>
-🚀 Featured Projects
-💼 Capgemini Clone Website
-Corporate UI clone inspired by Capgemini
+<p align="center">
+  <img width="45%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=dishaaarao&layout=compact&theme=tokyonight&hide_border=true" />
+</p>
 
-Fully responsive & modern layout
+<!-- ======================= ACTIVITY GRAPH ======================= -->
+<h2 align="center">⚡ Contribution Activity</h2>
 
-Built using HTML, CSS & JavaScript
+<p align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=dishaaarao&theme=tokyo-night&hide_border=true" />
+</p>
 
-☕ Null Café Website
-Minimalist café website with tech-inspired design
+<!-- ======================= TROPHIES ======================= -->
+<h2 align="center">🏆 GitHub Trophies</h2>
 
-Smooth scrolling & animations
+<p align="center">
+  <img src="https://github-profile-trophy.vercel.app/?username=dishaaarao&theme=tokyonight&no-frame=true&row=1&column=6" />
+</p>
 
-🎨 Personal Portfolio
-Animated, colorful & interactive portfolio
+<!-- ======================= CONNECT ======================= -->
+<h2 align="center">🌐 Connect With Me</h2>
 
-Designed to stand out and impress
+<p align="center">
+  <a href="https://www.linkedin.com" target="_blank">
+    <img src="https://img.shields.io/badge/LinkedIn-💼-6A5ACD?style=for-the-badge&logo=linkedin&logoColor=white"/>
+  </a>
+  <a href="https://www.instagram.com" target="_blank">
+    <img src="https://img.shields.io/badge/Instagram-📸-E1306C?style=for-the-badge&logo=instagram&logoColor=white"/>
+  </a>
+</p>
 
-🐍 Contribution Snake
-<p align="center"> <img src="https://raw.githubusercontent.com/dishaaarao/dishaaarao/output/github-contribution-grid-snake-dark.svg" /> </p>
-🌐 Connect With Me
-<p align="center"> <a href="https://www.linkedin.com"> <img src="https://img.shields.io/badge/LinkedIn-7B5CFF?style=for-the-badge&logo=linkedin&logoColor=white" /> </a> <a href="https://www.instagram.com"> <img src="https://img.shields.io/badge/Instagram-FF4D8D?style=for-the-badge&logo=instagram&logoColor=white" /> </a> </p> <p align="center"> <img src="https://capsule-render.vercel.app/api?type=waving&height=130&section=footer&color=gradient" /> </p> <p align="center"> 💜 Built with passion • Designed to stand out • Always learning </p> ```
+<!-- ======================= QUOTE ======================= -->
+<h2 align="center">💬 Motto</h2>
+
+<p align="center">
+  <i>"Good design is invisible. Great design feels magical."</i> ✨
+</p>
+
+<!-- ======================= FOOTER ======================= -->
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=120&section=footer"/>
+</p>
