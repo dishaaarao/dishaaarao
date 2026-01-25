@@ -1,93 +1,80 @@
-<!-- Animated Header -->
-<p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Inter&weight=600&size=28&pause=1000&color=8B5CF6&center=true&vCenter=true&width=700&lines=Hi%2C+I'm+Disha+Rao+%F0%9F%91%8B;Frontend+Developer+%F0%9F%92%BB;Turning+Designs+into+Experiences+%E2%9C%A8;HTML+%7C+CSS+%7C+JavaScript+%7C+React" />
-</p>
-
----
-
-## 👩‍💻 About Me
-
-✨ Frontend Developer who loves crafting **beautiful, responsive, and interactive** web experiences  
-🎨 Passionate about **UI/UX, animations, and clean design systems**  
-🚀 Constantly learning, building, and leveling up  
-💜 Turning ideas into pixel-perfect interfaces  
-
----
-
-## 🛠️ Tech Stack
+<!-- ======================= HERO ======================= -->
+<h1 align="center">✨ Disha Rao ✨</h1>
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=html,css,js,react,tailwind,git,github,figma,vscode" />
-</p>
-
----
-
-## ⚡ What I Do
-
-- ✨ Build modern, responsive frontend interfaces  
-- 🎨 Create smooth animations & micro-interactions  
-- 📱 Mobile-first & user-focused designs  
-- 🧩 Clean, reusable component-based code  
-
----
-
-## 🌈 Featured Projects
-
-🚀 **Personal Portfolio**  
-Modern animated portfolio showcasing my skills and projects with smooth UI transitions.
-
-🛍️ **Product Landing Pages**  
-Responsive and conversion-focused landing pages with clean layouts and animations.
-
-☕ **Restaurant / Café Website**  
-Minimal yet aesthetic website with structured sections, hover effects, and responsiveness.
-
-📊 **Expense Tracker Concept**  
-Frontend UI concept for tracking online shopping expenses with clean dashboards.
-
----
-
-## 📊 GitHub Stats
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=dishaarao&show_icons=true&theme=tokyonight&hide_border=true" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Poppins&size=26&pause=900&color=FF6EC7&center=true&vCenter=true&width=700&lines=Frontend+Developer+💻;UI%2FUX+Designer+🎨;Animation+%26+Micro-interaction+Lover;Building+Beautiful+Web+Experiences" />
 </p>
 
 <p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=dishaarao&theme=tokyonight&hide_border=true" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=130"/>
 </p>
 
----
-
-## 🧠 Most Used Languages
+<!-- ======================= ABOUT ======================= -->
+<h2 align="center">💎 About Me</h2>
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=dishaarao&layout=compact&theme=tokyonight&hide_border=true" />
+  💻 Frontend Developer focused on clean, modern & animated UI <br/>
+  🎨 Obsessed with smooth transitions & aesthetic layouts <br/>
+  ⚡ Turning ideas into interactive experiences <br/>
+  🚀 Currently growing in React, UI/UX & Product Design
 </p>
 
----
-
-## 🌐 Connect With Me
+<!-- ======================= TECH STACK ======================= -->
+<h2 align="center">🧠 Tech Stack</h2>
 
 <p align="center">
-  <a href="https://www.linkedin.com/" target="_blank">
-    <img src="https://img.shields.io/badge/LinkedIn-8B5CF6?style=for-the-badge&logo=linkedin&logoColor=white" />
+  <img src="https://skillicons.dev/icons?i=html,css,js,react,git,github,figma,vscode&theme=dark" />
+</p>
+
+<!-- ======================= GITHUB STATS ======================= -->
+<h2 align="center">📊 GitHub Analytics</h2>
+
+<p align="center">
+  <img width="48%" src="https://github-readme-stats.vercel.app/api?username=dishaaarao&show_icons=true&theme=tokyonight&hide_border=true" />
+  <img width="48%" src="https://github-readme-streak-stats.herokuapp.com/?user=dishaaarao&theme=tokyonight&hide_border=true" />
+</p>
+
+<!-- ======================= LANGUAGES ======================= -->
+<h2 align="center">🌍 Most Used Languages</h2>
+
+<p align="center">
+  <img width="45%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=dishaaarao&layout=compact&theme=tokyonight&hide_border=true" />
+</p>
+
+<!-- ======================= ACTIVITY GRAPH ======================= -->
+<h2 align="center">⚡ Contribution Activity</h2>
+
+<p align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=dishaaarao&theme=tokyo-night&hide_border=true" />
+</p>
+
+<!-- ======================= TROPHIES ======================= -->
+<h2 align="center">🏆 GitHub Trophies</h2>
+
+<p align="center">
+  <img src="https://github-profile-trophy.vercel.app/?username=dishaaarao&theme=tokyonight&no-frame=true&row=1&column=6" />
+</p>
+
+<!-- ======================= CONNECT ======================= -->
+<h2 align="center">🌐 Connect With Me</h2>
+
+<p align="center">
+  <a href="https://www.linkedin.com" target="_blank">
+    <img src="https://img.shields.io/badge/LinkedIn-💼-6A5ACD?style=for-the-badge&logo=linkedin&logoColor=white"/>
   </a>
-  <a href="https://www.instagram.com/" target="_blank">
-    <img src="https://img.shields.io/badge/Instagram-EC4899?style=for-the-badge&logo=instagram&logoColor=white" />
+  <a href="https://www.instagram.com" target="_blank">
+    <img src="https://img.shields.io/badge/Instagram-📸-E1306C?style=for-the-badge&logo=instagram&logoColor=white"/>
   </a>
 </p>
 
----
-
-## 🐍 Contribution Snake (Animation)
+<!-- ======================= QUOTE ======================= -->
+<h2 align="center">💬 Motto</h2>
 
 <p align="center">
-  <img src="https://github.com/dishaarao/dishaarao/blob/output/github-contribution-grid-snake.svg" />
+  <i>"Good design is invisible. Great design feels magical."</i> ✨
 </p>
 
----
-
+<!-- ======================= FOOTER ======================= -->
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=8B5CF6&height=120&section=footer" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=120&section=footer"/>
 </p>
