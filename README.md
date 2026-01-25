@@ -1,77 +1,49 @@
-<h1 align="center">
-  Hi 👋, I'm Disha Rao
-</h1>
-
-<h3 align="center">
-  Frontend Developer • UI/UX Enthusiast • Tech Explorer
-</h3>
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&height=230&text=Disha%20Rao&fontSize=46&fontAlignY=40&color=gradient&animation=fadeIn" />
+</p>
 
 <p align="center">
-  I build clean, modern, and interactive web experiences using HTML, CSS, JavaScript & React.
-  <br />
-  Passionate about design, animations, and turning ideas into reality ✨
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=24&pause=1000&color=F75C7E&center=true&vCenter=true&width=600&lines=Frontend+Developer;UI%2FUX+Enthusiast;Building+Clean+%26+Modern+Web+Experiences;Turning+Designs+into+Code" />
 </p>
 
 ---
 
-## ⚡ About Me
+## 🪄 About Me
 
-- 🎓 B.Tech CSE Student  
-- 💻 Frontend Developer  
-- 🎨 Love clean UI, smooth animations & modern layouts  
-- 🚀 Currently building real-world web projects  
-- 🌱 Learning React, UI/UX & Product Design  
+```txt
 
----
+💻 Frontend Developer
+🎨 UI/UX Focused
+🚀 Passionate about clean design & smooth animations
+🎓 B.Tech CSE Student
 
-## 🛠️ Tech Stack
+🌱 Learning React, Product Design & Advanced UI
 
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=html,css,js,react,tailwind,git,github,figma&theme=dark" />
-</p>
+✨ Love building visually appealing real-world projects
 
----
+⚡ Obsessed with clean code & modern interfaces
 
-## 🐍 GitHub Contribution Snake
+🛠️ Tech Stack
+<p align="center"> <img src="https://skillicons.dev/icons?i=html,css,js,react,tailwind,git,github,figma&theme=dark" /> </p>
+🚀 Featured Projects
+💼 Capgemini Clone Website
+Corporate UI clone inspired by Capgemini
 
-<p align="center">
-  <img src="https://raw.githubusercontent.com/dishaaarao/dishaaarao/output/github-contribution-grid-snake-dark.svg" />
-</p>
+Fully responsive & modern layout
 
----
+Built using HTML, CSS & JavaScript
 
-## 🌟 Featured Projects
+☕ Null Café Website
+Minimalist café website with tech-inspired design
 
-### 💼 Capgemini Clone Website
-- A responsive corporate website clone inspired by Capgemini  
-- Built with **HTML, CSS & JavaScript**  
-- Focused on clean layout, UI consistency & responsiveness  
+Smooth scrolling & animations
 
-### ☕ Null Café Website
-- A modern café website with a tech-inspired minimal design  
-- Includes menu, testimonials, contact form & animations  
+🎨 Personal Portfolio
+Animated, colorful & interactive portfolio
 
-### 🎨 Personal Portfolio
-- Animated, colorful & interactive portfolio website  
-- Designed to stand out and showcase frontend skills  
+Designed to stand out and impress
 
----
-
-## 🤝 Connect With Me
-
-<p align="center">
-  <a href="https://www.linkedin.com" target="_blank">
-    <img src="https://img.shields.io/badge/LinkedIn-7B5CFF?style=for-the-badge&logo=linkedin&logoColor=white" />
-  </a>
-  <a href="https://www.instagram.com" target="_blank">
-    <img src="https://img.shields.io/badge/Instagram-FF4D8D?style=for-the-badge&logo=instagram&logoColor=white" />
-  </a>
-</p>
-
----
-
-<p align="center">
-  💖 Thanks for visiting my profile  
-  <br />
-  Let’s build something amazing together!
-</p>
+🐍 Contribution Snake
+<p align="center"> <img src="https://raw.githubusercontent.com/dishaaarao/dishaaarao/output/github-contribution-grid-snake-dark.svg" /> </p>
+🌐 Connect With Me
+<p align="center"> <a href="https://www.linkedin.com"> <img src="https://img.shields.io/badge/LinkedIn-7B5CFF?style=for-the-badge&logo=linkedin&logoColor=white" /> </a> <a href="https://www.instagram.com"> <img src="https://img.shields.io/badge/Instagram-FF4D8D?style=for-the-badge&logo=instagram&logoColor=white" /> </a> </p> <p align="center"> <img src="https://capsule-render.vercel.app/api?type=waving&height=130&section=footer&color=gradient" /> </p> <p align="center"> 💜 Built with passion • Designed to stand out • Always learning </p> ```
