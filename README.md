@@ -66,7 +66,7 @@ xnsjdxsdxsjkdsdsdc dskjcds
     <img src="https://img.shields.io/badge/Instagram-📸-E1306C?style=for-the-badge&logo=instagram&logoColor=white"/>
   </a>
 </p>
-
+.
 <!-- ======================= QUOTE ======================= -->
 <h2 align="center">💬 Motto</h2>
 
