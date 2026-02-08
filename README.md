@@ -1,80 +1,71 @@
-<!-- ======================= HERO ======================= -->
-<h1 align="center">✨ Disha Rao ✨</h1>
-
+<!-- HERO ANIMATION -->
 <p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Poppins&size=26&pause=900&color=FF6EC7&center=true&vCenter=true&width=700&lines=Frontend+Developer+💻;UI%2FUX+Designer+🎨;Animation+%26+Micro-interaction+Lover;Building+Beautiful+Web+Experiences" />
-</p>
-xnsjdxsdxsjkdsdsdc dskjcds
-<p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=130"/>
+  <img src="https://user-images.githubusercontent.com/74038190/235224431-e8c8c12e-6826-47f1-89fb-2ddad83b3abf.gif" width="100%" />
 </p>
 
-<!-- ======================= ABOUT ======================= -->
-<h2 align="center">💎 About Me</h2>
+<h1 align="center">Hi, I'm Disha Rao 👋</h1>
 
 <p align="center">
-  💻 Frontend Developer focused on clean, modern & animated UI <br/>
-  🎨 Obsessed with smooth transitions & aesthetic layouts <br/>
-  ⚡ Turning ideas into interactive experiences <br/>
-  🚀 Currently growing in React, UI/UX & Product Design
+  UI/UX Designer • Frontend Developer • AI Explorer
 </p>
 
-<!-- ======================= TECH STACK ======================= -->
-<h2 align="center">🧠 Tech Stack</h2>
+<p align="center">
+  <i>Crafting clean interfaces and building intelligent experiences.</i>
+</p>
+
+---
+
+## 🌌 About Me
+
+I’m a passionate **UI/UX Designer and Frontend Developer** who loves turning ideas into interactive, user-friendly experiences.  
+I enjoy working at the intersection of **design, code, and intelligence**, always learning and experimenting with modern tech.
+
+---
+
+## 🛠️ Tech Stack & Tools
 
 <p align="center">
   <img src="https://skillicons.dev/icons?i=html,css,js,react,git,github,figma,vscode&theme=dark" />
 </p>
 
-<!-- ======================= GITHUB STATS ======================= -->
-<h2 align="center">📊 GitHub Analytics</h2>
+---
+
+## 🌍 Most Used Languages
 
 <p align="center">
-  <img width="48%" src="https://github-readme-stats.vercel.app/api?username=dishaaarao&show_icons=true&theme=tokyonight&hide_border=true" />
-  <img width="48%" src="https://github-readme-streak-stats.herokuapp.com/?user=dishaaarao&theme=tokyonight&hide_border=true" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=dishaarrao&layout=compact&theme=tokyonight&hide_border=true" />
 </p>
 
-<!-- ======================= LANGUAGES ======================= -->
-<h2 align="center">🌍 Most Used Languages</h2>
+---
+
+## ⚡ Contribution Activity
 
 <p align="center">
-  <img width="45%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=dishaaarao&layout=compact&theme=tokyonight&hide_border=true" />
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=dishaarrao&theme=tokyo-night&hide_border=true" />
 </p>
 
-<!-- ======================= ACTIVITY GRAPH ======================= -->
-<h2 align="center">⚡ Contribution Activity</h2>
+---
+
+## ✨ What I Focus On
+
+- 🎨 Clean & intuitive UI/UX design  
+- ⚛️ Modern frontend development  
+- 🤖 Exploring AI-powered applications  
+- 📱 Responsive & accessible interfaces  
+- 🚀 Continuous learning & building  
+
+---
+
+## 📬 Let’s Connect
 
 <p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=dishaaarao&theme=tokyo-night&hide_border=true" />
-</p>
-
-<!-- ======================= TROPHIES ======================= -->
-<h2 align="center">🏆 GitHub Trophies</h2>
-
-<p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=dishaaarao&theme=tokyonight&no-frame=true&row=1&column=6" />
-</p>
-
-<!-- ======================= CONNECT ======================= -->
-<h2 align="center">🌐 Connect With Me</h2>
-
-<p align="center">
-  <a href="https://www.linkedin.com" target="_blank">
-    <img src="https://img.shields.io/badge/LinkedIn-💼-6A5ACD?style=for-the-badge&logo=linkedin&logoColor=white"/>
-  </a>
-  <a href="https://www.instagram.com" target="_blank">
-    <img src="https://img.shields.io/badge/Instagram-📸-E1306C?style=for-the-badge&logo=instagram&logoColor=white"/>
+  <a href="https://github.com/dishaarrao">
+    <img src="https://img.shields.io/badge/GitHub-Profile-black?style=for-the-badge&logo=github" />
   </a>
 </p>
-.
-<!-- ======================= QUOTE ======================= -->
-<h2 align="center">💬 Motto</h2>
+
+---
 
 <p align="center">
-  <i>"Good design is invisible. Great design feels magical."</i> ✨
-</p>
-
-<!-- ======================= FOOTER ======================= -->
-<p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=120&section=footer"/>
+  <i>“Design is not just how it looks, but how it works.”</i>
 </p>
