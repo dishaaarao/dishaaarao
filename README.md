@@ -1,4 +1,4 @@
-<!-- HERO ANIMATION -->
+<!-- ===================== HERO ===================== -->
 <p align="center">
   <img
     src="https://user-images.githubusercontent.com/74038190/235224431-e8c8c12e-6826-47f1-89fb-2ddad83b3abf.gif"
@@ -7,33 +7,40 @@
   />
 </p>
 
-<!-- TYPING ANIMATION -->
+<!-- ===================== TYPING ===================== -->
 <p align="center">
   <img
-    src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&pause=1000&color=7C7CFF&center=true&vCenter=true&width=500&lines=Hi%2C+I'm+Disha+Rao+👋;Aspiring+Frontend+Developer;UI%2FUX+Enthusiast;Learning+by+Building"
+    src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&pause=1000&color=7C7CFF&center=true&vCenter=true&width=550&lines=Hi%2C+I'm+Disha+Rao+👋;UI%2FUX+Designer;Frontend+Developer;Building+Interfaces+That+Feel+Alive"
     alt="Typing animation"
   />
+</p>
+
+<p align="center">
+  <i>Learning by building, improving by doing.</i>
 </p>
 
 ---
 
 ## 🌱 About Me
 
-I’m an aspiring **Frontend Developer** with a strong interest in **UI/UX design** and modern web technologies.  
-I enjoy turning ideas into clean, interactive, and user-friendly interfaces while continuously learning and improving.
+I’m a **UI/UX Designer and Frontend Developer** who loves crafting clean, modern, and user-friendly interfaces.  
+I enjoy blending **design thinking with code** and exploring how intelligence and interaction come together in real products.
 
 ---
 
-<!-- WAVE DIVIDER -->
-<img src="https://capsule-render.vercel.app/api?type=wave&color=0:1e1e2e,100:5f5fd7&height=90&section=header" />
+<!-- ===================== RETRO DIVIDER ===================== -->
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:0f0f1a,100:6a5acd&height=2&section=header" />
 
-## 🛠️ Tech Stack
+## 🛠️ Tools & Technologies
 
+<!-- FRONTEND -->
 <p align="center">
-  <img
-    src="https://skillicons.dev/icons?i=html,css,js,react,git,github,figma,vscode&theme=dark"
-    alt="Tech stack"
-  />
+  <img src="https://skillicons.dev/icons?i=html,css,js,react&theme=dark" />
+</p>
+
+<!-- WORKFLOW -->
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=git,github,figma,vscode&theme=dark" />
 </p>
 
 ---
@@ -61,13 +68,36 @@ I enjoy turning ideas into clean, interactive, and user-friendly interfaces whil
 
 ---
 
-## 🐍 Contribution Snake (NEXT LEVEL 🔥)
+## 🐍 Contribution Snake
 
 <p align="center">
   <img
-    src="https://raw.githubusercontent.com/Platane/snk/output/github-contribution-grid-snake-dark.svg"
+    src="https://raw.githubusercontent.com/dishaaarao/dishaaarao/main/dist/github-contribution-grid-snake-dark.svg"
     alt="Contribution snake animation"
   />
+</p>
+
+---
+
+<!-- ===================== CRT / RETRO ===================== -->
+<p align="center">
+  <img
+    src="https://readme-typing-svg.demolab.com?font=VT323&size=26&pause=1200&color=9B8CFF&center=true&vCenter=true&width=650&lines=Design+Meets+Code;Creativity+Powered+by+Logic;Retro+Soul+%7C+Modern+Builds"
+    alt="Retro typing"
+  />
+</p>
+
+---
+
+## 🚀 Featured Projects
+
+<p align="center">
+  <a href="https://github.com/dishaaarao/Aura-AI-Assistant">
+    <img
+      src="https://github-readme-stats.vercel.app/api/pin/?username=dishaaarao&repo=Aura-AI-Assistant&theme=tokyonight&hide_border=true"
+      alt="Aura AI Assistant"
+    />
+  </a>
 </p>
 
 ---
