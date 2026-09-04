@@ -1,0 +1,154 @@
+<svg width="100%" height="100%" viewBox="0 0 850 340" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <!-- Dark Grid Pattern -->
+    <pattern id="grid" width="30" height="30" patternUnits="userSpaceOnUse">
+      <path d="M 30 0 L 0 0 0 30" fill="none" stroke="#1E2032" stroke-width="1.2" opacity="0.6"/>
+    </pattern>
+
+    <!-- Gradients -->
+    <linearGradient id="bgGradient" x1="0" y1="0" x2="850" y2="340" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#0F1017"/>
+      <stop offset="50%" stop-color="#141522"/>
+      <stop offset="100%" stop-color="#0B0C12"/>
+    </linearGradient>
+
+    <linearGradient id="purpleCard" x1="0" y1="0" x2="600" y2="240" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#8B5CF6"/>
+      <stop offset="100%" stop-color="#6D28D9"/>
+    </linearGradient>
+
+    <linearGradient id="pinkCard" x1="0" y1="0" x2="400" y2="200" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#EC4899"/>
+      <stop offset="100%" stop-color="#BE185D"/>
+    </linearGradient>
+
+    <linearGradient id="yellowCard" x1="0" y1="0" x2="350" y2="180" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#FACC15"/>
+      <stop offset="100%" stop-color="#EAB308"/>
+    </linearGradient>
+
+    <linearGradient id="coralCard" x1="0" y1="0" x2="250" y2="120" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#FF6B6B"/>
+      <stop offset="100%" stop-color="#EE5253"/>
+    </linearGradient>
+
+    <!-- Drop Shadows -->
+    <filter id="dropShadow" x="-10%" y="-10%" width="130%" height="130%">
+      <feDropShadow dx="0" dy="12" stdDeviation="16" flood-color="#000000" flood-opacity="0.5"/>
+    </filter>
+    
+    <filter id="softShadow" x="-10%" y="-10%" width="130%" height="130%">
+      <feDropShadow dx="0" dy="8" stdDeviation="10" flood-color="#000000" flood-opacity="0.35"/>
+    </filter>
+
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@500;700;800&amp;family=Outfit:wght@600;800&amp;display=swap');
+
+      .title {
+        font-family: 'Outfit', 'Plus Jakarta Sans', -apple-system, sans-serif;
+        font-weight: 800;
+        fill: #FFFFFF;
+      }
+      .subtitle {
+        font-family: 'Plus Jakarta Sans', -apple-system, sans-serif;
+        font-weight: 500;
+        fill: #E9D5FF;
+      }
+      .badge-text {
+        font-family: 'Outfit', sans-serif;
+        font-weight: 700;
+        font-size: 11px;
+        fill: #064E3B;
+        letter-spacing: 1.5px;
+      }
+      .dark-card-text {
+        font-family: 'Plus Jakarta Sans', sans-serif;
+        font-weight: 800;
+        fill: #1E1B4B;
+      }
+      .star {
+        animation: float 3s ease-in-out infinite alternate;
+      }
+      .stitched-line {
+        stroke-dasharray: 8, 6;
+        stroke-width: 2;
+      }
+    </style>
+  </defs>
+
+  <!-- Canvas Background -->
+  <rect width="850" height="340" rx="20" fill="url(#bgGradient)"/>
+  <rect width="850" height="340" rx="20" fill="url(#grid)"/>
+
+  <!-- Tilted Decorative Background Cards (Original Stacked effect) -->
+  <!-- Card 1: Coral back card -->
+  <g transform="translate(620, 40) rotate(8)">
+    <rect width="180" height="220" rx="24" fill="url(#coralCard)" filter="url(#softShadow)"/>
+    <rect x="8" y="8" width="164" height="204" rx="18" fill="none" stroke="#FFA8A8" class="stitched-line" opacity="0.7"/>
+    <circle cx="90" cy="110" r="28" fill="#FFFFFF" opacity="0.2"/>
+    <path d="M90 92 L94 104 L106 108 L94 112 L90 124 L86 112 L74 108 L86 104 Z" fill="#FFFFFF"/>
+  </g>
+
+  <!-- Card 2: Warm Yellow card stacked left -->
+  <g transform="translate(40, 50) rotate(-6)">
+    <rect width="220" height="230" rx="24" fill="url(#yellowCard)" filter="url(#dropShadow)"/>
+    <rect x="8" y="8" width="204" height="214" rx="18" fill="none" stroke="#FEF08A" class="stitched-line" opacity="0.8"/>
+    <text x="24" y="50" class="dark-card-text" font-size="20">ALWAYS</text>
+    <text x="24" y="75" class="dark-card-text" font-size="20">BUILDING ⚡</text>
+    <rect x="24" y="100" width="150" height="32" rx="16" fill="#18181B" opacity="0.9"/>
+    <text x="36" y="121" font-family="'Outfit', sans-serif" font-weight="700" font-size="12" fill="#FACC15">FULL STACK DEV</text>
+  </g>
+
+  <!-- Main Hero Card (Purple - Center Stage) -->
+  <g transform="translate(130, 35)" filter="url(#dropShadow)">
+    <rect width="600" height="255" rx="28" fill="url(#purpleCard)"/>
+    <rect x="10" y="10" width="580" height="235" rx="20" fill="none" stroke="#C4B5FD" class="stitched-line" opacity="0.6"/>
+
+    <!-- Sparkle Decor Icons -->
+    <path d="M45 40 L48 50 L58 53 L48 56 L45 66 L42 56 L32 53 L42 50 Z" fill="#FDE047" class="star"/>
+    <path d="M530 180 L532 187 L539 189 L532 191 L530 198 L528 191 L521 189 L528 187 Z" fill="#F472B6" class="star"/>
+    <path d="M540 45 L544 57 L556 61 L544 65 L540 77 L536 65 L524 61 L536 57 Z" fill="#6EE7B7"/>
+
+    <!-- Status Pill Badge -->
+    <g transform="translate(45, 42)">
+      <rect width="215" height="30" rx="15" fill="#4C1D95" opacity="0.6"/>
+      <circle cx="18" cy="15" r="5" fill="#34D399"/>
+      <text x="32" y="19" font-family="'Plus Jakarta Sans', sans-serif" font-weight="700" font-size="12" fill="#D1FAE5">DISHA RAO • FULL STACK DEV</text>
+    </g>
+
+    <!-- Main Title & Bio -->
+    <text x="45" y="118" class="title" font-size="38" letter-spacing="-0.5px">Hi, I'm Disha Rao 👋</text>
+    <text x="45" y="152" class="subtitle" font-size="16">Full Stack Developer • AI App Developer • Creative UI/UX Specialist</text>
+
+    <!-- Bottom Tags / Skills Pills inside Card -->
+    <g transform="translate(45, 185)">
+      <!-- Pill 1 -->
+      <rect x="0" y="0" width="135" height="34" rx="17" fill="#FFFFFF" opacity="0.18"/>
+      <text x="16" y="21" font-family="'Outfit', sans-serif" font-weight="700" font-size="13" fill="#FFFFFF">💻 Full Stack</text>
+
+      <!-- Pill 2 -->
+      <rect x="145" y="0" width="115" height="34" rx="17" fill="#FFFFFF" opacity="0.18"/>
+      <text x="161" y="21" font-family="'Outfit', sans-serif" font-weight="700" font-size="13" fill="#FFFFFF">⚛️ React.js</text>
+
+      <!-- Pill 3 -->
+      <rect x="270" y="0" width="115" height="34" rx="17" fill="#FFFFFF" opacity="0.18"/>
+      <text x="286" y="21" font-family="'Outfit', sans-serif" font-weight="700" font-size="13" fill="#FFFFFF">💚 Node.js</text>
+
+      <!-- Pill 4 -->
+      <rect x="395" y="0" width="110" height="34" rx="17" fill="#FFFFFF" opacity="0.18"/>
+      <text x="411" y="21" font-family="'Outfit', sans-serif" font-weight="700" font-size="13" fill="#FFFFFF">🤖 AI Apps</text>
+    </g>
+  </g>
+
+  <!-- Circular Badge Sticker -->
+  <g transform="translate(685, 15) rotate(12)" filter="url(#softShadow)">
+    <circle cx="45" cy="45" r="42" fill="#34D399"/>
+    <circle cx="45" cy="45" r="37" fill="none" stroke="#065F46" stroke-width="1.5" stroke-dasharray="4,3"/>
+    
+    <path id="textPath" d="M 15 45 A 30 30 0 1 1 75 45 A 30 30 0 1 1 15 45" fill="none"/>
+    <text class="badge-text">
+      <textPath href="#textPath" startOffset="0%">✦ FULL STACK DEV ✦</textPath>
+    </text>
+    <text x="45" y="49" font-family="'Outfit', sans-serif" font-weight="800" font-size="18" fill="#064E3B" text-anchor="middle">DR</text>
+  </g>
+</svg>

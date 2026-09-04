@@ -1,0 +1,298 @@
+<svg width="100%" height="100%" viewBox="0 0 850 570" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <pattern id="projGrid" width="30" height="30" patternUnits="userSpaceOnUse">
+      <path d="M 30 0 L 0 0 0 30" fill="none" stroke="#1E2032" stroke-width="1.2" opacity="0.5"/>
+    </pattern>
+
+    <linearGradient id="bgProj" x1="0" y1="0" x2="850" y2="570" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#0F1017"/>
+      <stop offset="100%" stop-color="#141522"/>
+    </linearGradient>
+
+    <!-- Card Gradients -->
+    <linearGradient id="projGrad1" x1="0" y1="0" x2="240" y2="225" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#7C5CFC"/>
+      <stop offset="100%" stop-color="#4C1D95"/>
+    </linearGradient>
+
+    <linearGradient id="projGrad2" x1="0" y1="0" x2="240" y2="225" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#F59E0B"/>
+      <stop offset="100%" stop-color="#B45309"/>
+    </linearGradient>
+
+    <linearGradient id="projGrad3" x1="0" y1="0" x2="240" y2="225" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#EC4899"/>
+      <stop offset="100%" stop-color="#831843"/>
+    </linearGradient>
+
+    <linearGradient id="projGrad4" x1="0" y1="0" x2="240" y2="225" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#FACC15"/>
+      <stop offset="100%" stop-color="#854D0E"/>
+    </linearGradient>
+
+    <linearGradient id="projGrad5" x1="0" y1="0" x2="240" y2="225" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#3B82F6"/>
+      <stop offset="100%" stop-color="#1E3A8A"/>
+    </linearGradient>
+
+    <linearGradient id="projGrad6" x1="0" y1="0" x2="240" y2="225" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#10B981"/>
+      <stop offset="100%" stop-color="#064E3B"/>
+    </linearGradient>
+
+    <filter id="projShadow" x="-10%" y="-10%" width="130%" height="130%">
+      <feDropShadow dx="0" dy="8" stdDeviation="10" flood-color="#000000" flood-opacity="0.45"/>
+    </filter>
+
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@500;600;700;800&amp;family=Outfit:wght@700;800&amp;display=swap');
+      
+      .proj-head {
+        font-family: 'Outfit', sans-serif;
+        font-weight: 800;
+        font-size: 24px;
+        fill: #FFFFFF;
+      }
+      .card-proj-title {
+        font-family: 'Outfit', sans-serif;
+        font-weight: 800;
+        font-size: 16.5px;
+      }
+      .card-proj-tagline {
+        font-family: 'Outfit', sans-serif;
+        font-weight: 700;
+        font-size: 11px;
+      }
+      .card-proj-sub {
+        font-family: 'Plus Jakarta Sans', sans-serif;
+        font-weight: 500;
+        font-size: 11px;
+      }
+      .tag-text {
+        font-family: 'Plus Jakarta Sans', sans-serif;
+        font-weight: 700;
+        font-size: 9.5px;
+      }
+      .stitched-proj {
+        stroke-dasharray: 6,4;
+        stroke-width: 1.5;
+      }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect width="850" height="570" rx="20" fill="url(#bgProj)"/>
+  <rect width="850" height="570" rx="20" fill="url(#projGrid)"/>
+
+  <!-- Section Header -->
+  <g transform="translate(45, 40)">
+    <text class="proj-head" x="0" y="0">🚀 FEATURED PROJECTS (6)</text>
+    <rect x="0" y="10" width="300" height="3" fill="#FACC15" rx="1.5"/>
+  </g>
+
+  <!-- Decor Stars -->
+  <path d="M780 35 L783 45 L793 48 L783 51 L780 61 L777 51 L767 48 L777 45 Z" fill="#EC4899"/>
+  <path d="M40 520 L42 527 L49 529 L42 531 L40 538 L38 531 L31 529 L38 527 Z" fill="#7C5CFC"/>
+
+  <!-- ROW 1 (3 CARDS) -->
+
+  <!-- Card 1: Aura AI -->
+  <g transform="translate(45, 75) rotate(-0.8)" filter="url(#projShadow)">
+    <rect width="240" height="225" rx="22" fill="url(#projGrad1)"/>
+    <rect x="6" y="6" width="228" height="213" rx="16" fill="none" stroke="#C4B5FD" class="stitched-proj" opacity="0.6"/>
+
+    <text x="18" y="34" class="card-proj-title" fill="#FFFFFF">🤖 Aura AI</text>
+    <text x="18" y="52" class="card-proj-tagline" fill="#FDE047">Conversational AI Assistant</text>
+
+    <text x="18" y="74" class="card-proj-sub" fill="#E9D5FF">
+      <tspan x="18" dy="0">Conversational AI assistant</tspan>
+      <tspan x="18" dy="16">built with Gemini &amp; Groq</tspan>
+      <tspan x="18" dy="16">for voice &amp; prompt AI.</tspan>
+    </text>
+
+    <g transform="translate(18, 134)">
+      <rect width="80" height="24" rx="12" fill="#FFFFFF" opacity="0.2"/>
+      <text x="10" y="16" class="tag-text" fill="#FFFFFF">Gemini API</text>
+      <rect x="86" width="50" height="24" rx="12" fill="#FFFFFF" opacity="0.2"/>
+      <text x="96" y="16" class="tag-text" fill="#FFFFFF">Groq</text>
+    </g>
+    <g transform="translate(18, 164)">
+      <rect width="65" height="24" rx="12" fill="#FFFFFF" opacity="0.2"/>
+      <text x="10" y="16" class="tag-text" fill="#FFFFFF">React.js</text>
+      <rect x="71" width="65" height="24" rx="12" fill="#FFFFFF" opacity="0.2"/>
+      <text x="81" y="16" class="tag-text" fill="#FFFFFF">Node.js</text>
+    </g>
+
+    <g transform="translate(185, 12)">
+      <circle cx="18" cy="18" r="15" fill="#FACC15"/>
+      <text x="18" y="22" font-family="'Outfit', sans-serif" font-weight="800" font-size="9" fill="#18181B" text-anchor="middle">AI</text>
+    </g>
+  </g>
+
+  <!-- Card 2: Kaksha (NEW!) -->
+  <g transform="translate(305, 75) rotate(0.8)" filter="url(#projShadow)">
+    <rect width="240" height="225" rx="22" fill="url(#projGrad2)"/>
+    <rect x="6" y="6" width="228" height="213" rx="16" fill="none" stroke="#FDE047" class="stitched-proj" opacity="0.7"/>
+
+    <text x="18" y="34" class="card-proj-title" fill="#FFFFFF">📚 Kaksha</text>
+    <text x="18" y="52" class="card-proj-tagline" fill="#FEF08A">AI Study &amp; Tutor Platform</text>
+
+    <text x="18" y="74" class="card-proj-sub" fill="#FEF3C7">
+      <tspan x="18" dy="0">AI study platform for notes,</tspan>
+      <tspan x="18" dy="16">interactive flashcards, quizzes</tspan>
+      <tspan x="18" dy="16">&amp; dedicated AI chat tutor.</tspan>
+    </text>
+
+    <g transform="translate(18, 134)">
+      <rect width="80" height="24" rx="12" fill="#18181B" opacity="0.85"/>
+      <text x="10" y="16" class="tag-text" fill="#FACC15">Gemini API</text>
+      <rect x="86" width="65" height="24" rx="12" fill="#18181B" opacity="0.85"/>
+      <text x="96" y="16" class="tag-text" fill="#FACC15">React.js</text>
+    </g>
+    <g transform="translate(18, 164)">
+      <rect width="65" height="24" rx="12" fill="#18181B" opacity="0.85"/>
+      <text x="10" y="16" class="tag-text" fill="#FACC15">MongoDB</text>
+      <rect x="71" width="65" height="24" rx="12" fill="#18181B" opacity="0.85"/>
+      <text x="81" y="16" class="tag-text" fill="#FACC15">Node.js</text>
+    </g>
+
+    <g transform="translate(185, 12)">
+      <circle cx="18" cy="18" r="15" fill="#FFFFFF"/>
+      <text x="18" y="22" font-family="'Outfit', sans-serif" font-weight="800" font-size="8" fill="#B45309" text-anchor="middle">EDU</text>
+    </g>
+  </g>
+
+  <!-- Card 3: SnapScan -->
+  <g transform="translate(565, 75) rotate(-0.5)" filter="url(#projShadow)">
+    <rect width="240" height="225" rx="22" fill="url(#projGrad3)"/>
+    <rect x="6" y="6" width="228" height="213" rx="16" fill="none" stroke="#F472B6" class="stitched-proj" opacity="0.6"/>
+
+    <text x="18" y="34" class="card-proj-title" fill="#FFFFFF">📸 SnapScan</text>
+    <text x="18" y="52" class="card-proj-tagline" fill="#FACC15">Collaborative Media Gallery</text>
+
+    <text x="18" y="74" class="card-proj-sub" fill="#FFE4E6">
+      <tspan x="18" dy="0">Collaborative media gallery</tspan>
+      <tspan x="18" dy="16">platform with real-time</tspan>
+      <tspan x="18" dy="16">Cloudinary upload &amp; share.</tspan>
+    </text>
+
+    <g transform="translate(18, 134)">
+      <rect width="65" height="24" rx="12" fill="#FFFFFF" opacity="0.2"/>
+      <text x="10" y="16" class="tag-text" fill="#FFFFFF">React.js</text>
+      <rect x="71" width="75" height="24" rx="12" fill="#FFFFFF" opacity="0.2"/>
+      <text x="81" y="16" class="tag-text" fill="#FFFFFF">Cloudinary</text>
+    </g>
+    <g transform="translate(18, 164)">
+      <rect width="70" height="24" rx="12" fill="#FFFFFF" opacity="0.2"/>
+      <text x="10" y="16" class="tag-text" fill="#FFFFFF">Tailwind</text>
+      <rect x="76" width="65" height="24" rx="12" fill="#FFFFFF" opacity="0.2"/>
+      <text x="86" y="16" class="tag-text" fill="#FFFFFF">Node.js</text>
+    </g>
+
+    <g transform="translate(185, 12)">
+      <circle cx="18" cy="18" r="15" fill="#34D399"/>
+      <text x="18" y="22" font-family="'Outfit', sans-serif" font-weight="800" font-size="9" fill="#064E3B" text-anchor="middle">WEB</text>
+    </g>
+  </g>
+
+  <!-- ROW 2 (3 CARDS) -->
+
+  <!-- Card 4: PayMate -->
+  <g transform="translate(45, 320) rotate(0.6)" filter="url(#projShadow)">
+    <rect width="240" height="225" rx="22" fill="url(#projGrad4)"/>
+    <rect x="6" y="6" width="228" height="213" rx="16" fill="none" stroke="#FEF08A" class="stitched-proj" opacity="0.7"/>
+
+    <text x="18" y="34" class="card-proj-title" fill="#18181B">💳 PayMate</text>
+    <text x="18" y="52" class="card-proj-tagline" fill="#1E1B4B">Online UPI Payment Web App</text>
+
+    <text x="18" y="74" class="card-proj-sub" fill="#312E81">
+      <tspan x="18" dy="0">Online UPI payment web app</tspan>
+      <tspan x="18" dy="16">featuring wallet transactions</tspan>
+      <tspan x="18" dy="16">&amp; full-stack Node backend.</tspan>
+    </text>
+
+    <g transform="translate(18, 134)">
+      <rect width="65" height="24" rx="12" fill="#18181B" opacity="0.85"/>
+      <text x="10" y="16" class="tag-text" fill="#FACC15">React.js</text>
+      <rect x="71" width="75" height="24" rx="12" fill="#18181B" opacity="0.85"/>
+      <text x="81" y="16" class="tag-text" fill="#FACC15">Express.js</text>
+    </g>
+    <g transform="translate(18, 164)">
+      <rect width="70" height="24" rx="12" fill="#18181B" opacity="0.85"/>
+      <text x="10" y="16" class="tag-text" fill="#FACC15">MongoDB</text>
+      <rect x="76" width="70" height="24" rx="12" fill="#18181B" opacity="0.85"/>
+      <text x="86" y="16" class="tag-text" fill="#FACC15">REST API</text>
+    </g>
+
+    <g transform="translate(185, 12)">
+      <circle cx="18" cy="18" r="15" fill="#7C5CFC"/>
+      <text x="18" y="22" font-family="'Outfit', sans-serif" font-weight="800" font-size="8" fill="#FFFFFF" text-anchor="middle">PAY</text>
+    </g>
+  </g>
+
+  <!-- Card 5: Drone Route Planner -->
+  <g transform="translate(305, 320) rotate(-0.6)" filter="url(#projShadow)">
+    <rect width="240" height="225" rx="22" fill="url(#projGrad5)"/>
+    <rect x="6" y="6" width="228" height="213" rx="16" fill="none" stroke="#93C5FD" class="stitched-proj" opacity="0.6"/>
+
+    <text x="18" y="34" class="card-proj-title" fill="#FFFFFF">🗺️ Drone Planner</text>
+    <text x="18" y="52" class="card-proj-tagline" fill="#93C5FD">Geospatial Optimization</text>
+
+    <text x="18" y="74" class="card-proj-sub" fill="#DBEAFE">
+      <tspan x="18" dy="0">Geospatial route planner</tspan>
+      <tspan x="18" dy="16">using Mapbox GL JS, Leaflet</tspan>
+      <tspan x="18" dy="16">&amp; graph A* pathfinding.</tspan>
+    </text>
+
+    <g transform="translate(18, 134)">
+      <rect width="80" height="24" rx="12" fill="#FFFFFF" opacity="0.2"/>
+      <text x="10" y="16" class="tag-text" fill="#FFFFFF">Mapbox GL</text>
+      <rect x="86" width="75" height="24" rx="12" fill="#FFFFFF" opacity="0.2"/>
+      <text x="96" y="16" class="tag-text" fill="#FFFFFF">A* Algorithm</text>
+    </g>
+    <g transform="translate(18, 164)">
+      <rect width="80" height="24" rx="12" fill="#FFFFFF" opacity="0.2"/>
+      <text x="10" y="16" class="tag-text" fill="#FFFFFF">React Leaflet</text>
+      <rect x="86" width="65" height="24" rx="12" fill="#FFFFFF" opacity="0.2"/>
+      <text x="96" y="16" class="tag-text" fill="#FFFFFF">TypeScript</text>
+    </g>
+
+    <g transform="translate(185, 12)">
+      <circle cx="18" cy="18" r="15" fill="#34D399"/>
+      <text x="18" y="22" font-family="'Outfit', sans-serif" font-weight="800" font-size="9" fill="#064E3B" text-anchor="middle">MAP</text>
+    </g>
+  </g>
+
+  <!-- Card 6: Smart Door Dash Cam -->
+  <g transform="translate(565, 320) rotate(0.5)" filter="url(#projShadow)">
+    <rect width="240" height="225" rx="22" fill="url(#projGrad6)"/>
+    <rect x="6" y="6" width="228" height="213" rx="16" fill="none" stroke="#6EE7B7" class="stitched-proj" opacity="0.6"/>
+
+    <text x="18" y="34" class="card-proj-title" fill="#FFFFFF">📹 Smart Dash Cam</text>
+    <text x="18" y="52" class="card-proj-tagline" fill="#6EE7B7">IoT Security System</text>
+
+    <text x="18" y="74" class="card-proj-sub" fill="#D1FAE5">
+      <tspan x="18" dy="0">Smart door security using</tspan>
+      <tspan x="18" dy="16">ESP32-S3, ESP32-CAM,</tspan>
+      <tspan x="18" dy="16">sensors &amp; Blynk IoT controls.</tspan>
+    </text>
+
+    <g transform="translate(18, 134)">
+      <rect width="70" height="24" rx="12" fill="#FFFFFF" opacity="0.2"/>
+      <text x="10" y="16" class="tag-text" fill="#FFFFFF">ESP32-S3</text>
+      <rect x="76" width="75" height="24" rx="12" fill="#FFFFFF" opacity="0.2"/>
+      <text x="86" y="16" class="tag-text" fill="#FFFFFF">ESP32-CAM</text>
+    </g>
+    <g transform="translate(18, 164)">
+      <rect width="65" height="24" rx="12" fill="#FFFFFF" opacity="0.2"/>
+      <text x="10" y="16" class="tag-text" fill="#FFFFFF">Blynk IoT</text>
+      <rect x="71" width="75" height="24" rx="12" fill="#FFFFFF" opacity="0.2"/>
+      <text x="81" y="16" class="tag-text" fill="#FFFFFF">PIR Sensors</text>
+    </g>
+
+    <g transform="translate(185, 12)">
+      <circle cx="18" cy="18" r="15" fill="#FACC15"/>
+      <text x="18" y="22" font-family="'Outfit', sans-serif" font-weight="800" font-size="9" fill="#18181B" text-anchor="middle">IoT</text>
+    </g>
+  </g>
+</svg>

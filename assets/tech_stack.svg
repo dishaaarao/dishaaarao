@@ -1,0 +1,204 @@
+<svg width="100%" height="100%" viewBox="0 0 850 420" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <pattern id="techGrid" width="30" height="30" patternUnits="userSpaceOnUse">
+      <path d="M 30 0 L 0 0 0 30" fill="none" stroke="#1E2032" stroke-width="1.2" opacity="0.5"/>
+    </pattern>
+
+    <linearGradient id="bgTech" x1="0" y1="0" x2="850" y2="420" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#0F1017"/>
+      <stop offset="100%" stop-color="#141522"/>
+    </linearGradient>
+
+    <!-- Card Background Gradients -->
+    <linearGradient id="cardGrad1" x1="0" y1="0" x2="365" y2="150" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#7C5CFC"/>
+      <stop offset="100%" stop-color="#5B21B6"/>
+    </linearGradient>
+
+    <linearGradient id="cardGrad2" x1="0" y1="0" x2="365" y2="150" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#EC4899"/>
+      <stop offset="100%" stop-color="#9F1239"/>
+    </linearGradient>
+
+    <linearGradient id="cardGrad3" x1="0" y1="0" x2="365" y2="150" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#FACC15"/>
+      <stop offset="100%" stop-color="#CA8A04"/>
+    </linearGradient>
+
+    <linearGradient id="cardGrad4" x1="0" y1="0" x2="365" y2="150" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#10B981"/>
+      <stop offset="100%" stop-color="#047857"/>
+    </linearGradient>
+
+    <filter id="techShadow" x="-10%" y="-10%" width="130%" height="130%">
+      <feDropShadow dx="0" dy="8" stdDeviation="10" flood-color="#000000" flood-opacity="0.4"/>
+    </filter>
+
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@600;700;800&amp;family=Outfit:wght@700;800&amp;display=swap');
+      
+      .tech-head {
+        font-family: 'Outfit', sans-serif;
+        font-weight: 800;
+        font-size: 24px;
+        fill: #FFFFFF;
+      }
+      .card-cat-title {
+        font-family: 'Outfit', sans-serif;
+        font-weight: 800;
+        font-size: 15.5px;
+      }
+      .pill-text {
+        font-family: 'Plus Jakarta Sans', sans-serif;
+        font-weight: 700;
+        font-size: 11.5px;
+      }
+      .stitched {
+        stroke-dasharray: 6,4;
+        stroke-width: 1.5;
+      }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect width="850" height="420" rx="20" fill="url(#bgTech)"/>
+  <rect width="850" height="420" rx="20" fill="url(#techGrid)"/>
+
+  <!-- Section Header -->
+  <g transform="translate(50, 40)">
+    <text class="tech-head" x="0" y="0">🛠️ TECH STACK &amp; CAPABILITIES</text>
+    <rect x="0" y="10" width="340" height="3" fill="#EC4899" rx="1.5"/>
+  </g>
+
+  <!-- Decor Stars -->
+  <path d="M780 40 L783 50 L793 53 L783 56 L780 66 L777 56 L767 53 L777 50 Z" fill="#FACC15"/>
+  <path d="M40 380 L42 387 L49 389 L42 391 L40 398 L38 391 L31 389 L38 387 Z" fill="#7C5CFC"/>
+
+  <!-- CARD 1: Tier 1 Core Frontend (Purple) -->
+  <g transform="translate(50, 75) rotate(-1)" filter="url(#techShadow)">
+    <rect width="365" height="150" rx="20" fill="url(#cardGrad1)"/>
+    <rect x="6" y="6" width="353" height="138" rx="14" fill="none" stroke="#C4B5FD" class="stitched" opacity="0.6"/>
+    <text x="22" y="32" class="card-cat-title" fill="#FFFFFF">⭐ Tier 1 — Core Frontend &amp; UI</text>
+
+    <!-- Pills -->
+    <g transform="translate(22, 48)">
+      <rect width="70" height="26" rx="13" fill="#FFFFFF" opacity="0.2"/>
+      <text x="12" y="17" class="pill-text" fill="#FFFFFF">React.js</text>
+      <rect x="78" width="90" height="26" rx="13" fill="#FFFFFF" opacity="0.2"/>
+      <text x="90" y="17" class="pill-text" fill="#FFFFFF">TypeScript</text>
+      <rect x="176" width="95" height="26" rx="13" fill="#FFFFFF" opacity="0.2"/>
+      <text x="188" y="17" class="pill-text" fill="#FFFFFF">Tailwind CSS</text>
+    </g>
+    <g transform="translate(22, 80)">
+      <rect width="90" height="26" rx="13" fill="#FFFFFF" opacity="0.2"/>
+      <text x="12" y="17" class="pill-text" fill="#FFFFFF">JavaScript</text>
+      <rect x="98" width="60" height="26" rx="13" fill="#FFFFFF" opacity="0.2"/>
+      <text x="110" y="17" class="pill-text" fill="#FFFFFF">HTML5</text>
+      <rect x="166" width="55" height="26" rx="13" fill="#FFFFFF" opacity="0.2"/>
+      <text x="178" y="17" class="pill-text" fill="#FFFFFF">CSS3</text>
+      <rect x="229" width="55" height="26" rx="13" fill="#FFFFFF" opacity="0.2"/>
+      <text x="241" y="17" class="pill-text" fill="#FFFFFF">Vite</text>
+    </g>
+    <g transform="translate(22, 112)">
+      <rect width="60" height="24" rx="12" fill="#FFFFFF" opacity="0.2"/>
+      <text x="12" y="16" class="pill-text" fill="#FFFFFF">Figma</text>
+      <rect x="68" width="135" height="24" rx="12" fill="#FFFFFF" opacity="0.2"/>
+      <text x="80" y="16" class="pill-text" fill="#FFFFFF">Responsive Layouts</text>
+    </g>
+  </g>
+
+  <!-- CARD 2: Tier 1 Core Backend & DB (Pink) -->
+  <g transform="translate(435, 75) rotate(1)" filter="url(#techShadow)">
+    <rect width="365" height="150" rx="20" fill="url(#cardGrad2)"/>
+    <rect x="6" y="6" width="353" height="138" rx="14" fill="none" stroke="#F472B6" class="stitched" opacity="0.6"/>
+    <text x="22" y="32" class="card-cat-title" fill="#FFFFFF">⭐ Tier 1 — Core Backend &amp; DB</text>
+
+    <!-- Pills -->
+    <g transform="translate(22, 48)">
+      <rect width="70" height="26" rx="13" fill="#FFFFFF" opacity="0.2"/>
+      <text x="12" y="17" class="pill-text" fill="#FFFFFF">Node.js</text>
+      <rect x="78" width="85" height="26" rx="13" fill="#FFFFFF" opacity="0.2"/>
+      <text x="90" y="17" class="pill-text" fill="#FFFFFF">Express.js</text>
+      <rect x="171" width="80" height="26" rx="13" fill="#FFFFFF" opacity="0.2"/>
+      <text x="183" y="17" class="pill-text" fill="#FFFFFF">REST APIs</text>
+    </g>
+    <g transform="translate(22, 80)">
+      <rect width="135" height="26" rx="13" fill="#FFFFFF" opacity="0.2"/>
+      <text x="12" y="17" class="pill-text" fill="#FFFFFF">🍃 MongoDB (Primary)</text>
+      <rect x="143" width="70" height="26" rx="13" fill="#FFFFFF" opacity="0.2"/>
+      <text x="155" y="17" class="pill-text" fill="#FFFFFF">Firebase</text>
+      <rect x="221" width="75" height="26" rx="13" fill="#FFFFFF" opacity="0.2"/>
+      <text x="233" y="17" class="pill-text" fill="#FFFFFF">Supabase</text>
+    </g>
+    <g transform="translate(22, 112)">
+      <rect width="45" height="24" rx="12" fill="#FFFFFF" opacity="0.2"/>
+      <text x="11" y="16" class="pill-text" fill="#FFFFFF">Git</text>
+      <rect x="53" width="65" height="24" rx="12" fill="#FFFFFF" opacity="0.2"/>
+      <text x="65" y="16" class="pill-text" fill="#FFFFFF">GitHub</text>
+      <rect x="126" width="70" height="24" rx="12" fill="#FFFFFF" opacity="0.2"/>
+      <text x="138" y="16" class="pill-text" fill="#FFFFFF">Postman</text>
+    </g>
+  </g>
+
+  <!-- CARD 3: Tier 2 Supporting Tech & AI (Yellow) -->
+  <g transform="translate(50, 240) rotate(0.8)" filter="url(#techShadow)">
+    <rect width="365" height="150" rx="20" fill="url(#cardGrad3)"/>
+    <rect x="6" y="6" width="353" height="138" rx="14" fill="none" stroke="#FEF08A" class="stitched" opacity="0.7"/>
+    <text x="22" y="32" class="card-cat-title" fill="#18181B">🚀 Tier 2 — Supporting Tech &amp; AI</text>
+
+    <!-- Pills -->
+    <g transform="translate(22, 48)">
+      <rect width="135" height="26" rx="13" fill="#18181B" opacity="0.85"/>
+      <text x="12" y="17" class="pill-text" fill="#FACC15">🤖 AI APIs (Gemini/Groq)</text>
+      <rect x="143" width="100" height="26" rx="13" fill="#18181B" opacity="0.85"/>
+      <text x="155" y="17" class="pill-text" fill="#FACC15">Mapbox GL JS</text>
+    </g>
+    <g transform="translate(22, 80)">
+      <rect width="95" height="26" rx="13" fill="#18181B" opacity="0.85"/>
+      <text x="12" y="17" class="pill-text" fill="#FACC15">React Leaflet</text>
+      <rect x="103" width="60" height="26" rx="13" fill="#18181B" opacity="0.85"/>
+      <text x="115" y="17" class="pill-text" fill="#FACC15">Redux</text>
+      <rect x="171" width="65" height="26" rx="13" fill="#18181B" opacity="0.85"/>
+      <text x="183" y="17" class="pill-text" fill="#FACC15">Python</text>
+    </g>
+    <g transform="translate(22, 112)">
+      <rect width="105" height="24" rx="12" fill="#18181B" opacity="0.85"/>
+      <text x="12" y="16" class="pill-text" fill="#FACC15">Vercel / Render</text>
+      <rect x="115" width="65" height="24" rx="12" fill="#18181B" opacity="0.85"/>
+      <text x="127" y="16" class="pill-text" fill="#FACC15">Docker</text>
+      <rect x="188" width="110" height="24" rx="12" fill="#18181B" opacity="0.85"/>
+      <text x="200" y="16" class="pill-text" fill="#FACC15">Pandas / NumPy</text>
+    </g>
+  </g>
+
+  <!-- CARD 4: Tier 3 Specialized & Exploring (Emerald Mint) -->
+  <g transform="translate(435, 240) rotate(-0.8)" filter="url(#techShadow)">
+    <rect width="365" height="150" rx="20" fill="url(#cardGrad4)"/>
+    <rect x="6" y="6" width="353" height="138" rx="14" fill="none" stroke="#6EE7B7" class="stitched" opacity="0.6"/>
+    <text x="22" y="32" class="card-cat-title" fill="#FFFFFF">💡 Tier 3 — Specialized &amp; Exploring</text>
+
+    <!-- Pills -->
+    <g transform="translate(22, 48)">
+      <rect width="90" height="26" rx="13" fill="#FFFFFF" opacity="0.2"/>
+      <text x="12" y="17" class="pill-text" fill="#FFFFFF">Flutter / Dart</text>
+      <rect x="98" width="105" height="26" rx="13" fill="#FFFFFF" opacity="0.2"/>
+      <text x="110" y="17" class="pill-text" fill="#FFFFFF">ESP32 / Blynk</text>
+      <rect x="211" width="85" height="26" rx="13" fill="#FFFFFF" opacity="0.2"/>
+      <text x="223" y="17" class="pill-text" fill="#FFFFFF">Web3 / IPFS</text>
+    </g>
+    <g transform="translate(22, 80)">
+      <rect width="75" height="26" rx="13" fill="#FFFFFF" opacity="0.2"/>
+      <text x="12" y="17" class="pill-text" fill="#FFFFFF">Ethers.js</text>
+      <rect x="83" width="75" height="26" rx="13" fill="#FFFFFF" opacity="0.2"/>
+      <text x="95" y="17" class="pill-text" fill="#FFFFFF">Solidity</text>
+      <rect x="166" width="65" height="26" rx="13" fill="#FFFFFF" opacity="0.2"/>
+      <text x="178" y="17" class="pill-text" fill="#FFFFFF">3D Web</text>
+    </g>
+    <g transform="translate(22, 112)">
+      <rect width="75" height="24" rx="12" fill="#FFFFFF" opacity="0.2"/>
+      <text x="12" y="16" class="pill-text" fill="#FFFFFF">GraphQL</text>
+      <rect x="85" width="130" height="24" rx="12" fill="#FFFFFF" opacity="0.2"/>
+      <text x="97" y="16" class="pill-text" fill="#FFFFFF">Selenium / Puppeteer</text>
+    </g>
+  </g>
+</svg>

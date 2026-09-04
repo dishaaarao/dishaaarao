@@ -1,0 +1,106 @@
+<svg width="100%" height="100%" viewBox="0 0 850 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <pattern id="contactGrid" width="30" height="30" patternUnits="userSpaceOnUse">
+      <path d="M 30 0 L 0 0 0 30" fill="none" stroke="#1E2032" stroke-width="1.2" opacity="0.5"/>
+    </pattern>
+
+    <linearGradient id="bgContact" x1="0" y1="0" x2="850" y2="200" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#0F1017"/>
+      <stop offset="100%" stop-color="#141522"/>
+    </linearGradient>
+
+    <linearGradient id="contactCardGrad" x1="0" y1="0" x2="750" y2="150" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#EC4899"/>
+      <stop offset="50%" stop-color="#8B5CF6"/>
+      <stop offset="100%" stop-color="#6366F1"/>
+    </linearGradient>
+
+    <filter id="contactShadow" x="-10%" y="-10%" width="130%" height="130%">
+      <feDropShadow dx="0" dy="8" stdDeviation="12" flood-color="#000000" flood-opacity="0.45"/>
+    </filter>
+
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@600;700;800&amp;family=Outfit:wght@700;800&amp;display=swap');
+      
+      .contact-title {
+        font-family: 'Outfit', sans-serif;
+        font-weight: 800;
+        font-size: 26px;
+        fill: #FFFFFF;
+      }
+      .contact-sub {
+        font-family: 'Plus Jakarta Sans', sans-serif;
+        font-weight: 600;
+        font-size: 13.5px;
+        fill: #F3E8FF;
+      }
+      .btn-text-dark {
+        font-family: 'Outfit', sans-serif;
+        font-weight: 700;
+        font-size: 13px;
+        fill: #18181B;
+        text-anchor: middle;
+      }
+      .btn-text-light {
+        font-family: 'Outfit', sans-serif;
+        font-weight: 700;
+        font-size: 13px;
+        fill: #FFFFFF;
+        text-anchor: middle;
+      }
+      .stitched-contact {
+        stroke-dasharray: 8,5;
+        stroke-width: 1.8;
+      }
+    </style>
+  </defs>
+
+  <!-- Canvas Background -->
+  <rect width="850" height="200" rx="20" fill="url(#bgContact)"/>
+  <rect width="850" height="200" rx="20" fill="url(#contactGrid)"/>
+
+  <!-- Main Card Slab -->
+  <g transform="translate(50, 25)" filter="url(#contactShadow)">
+    <rect width="750" height="150" rx="24" fill="url(#contactCardGrad)"/>
+    <rect x="8" y="8" width="734" height="134" rx="18" fill="none" stroke="#F472B6" class="stitched-contact" opacity="0.6"/>
+
+    <!-- Left Header Info -->
+    <text x="35" y="50" class="contact-title">📫 Let's Connect &amp; Build Together!</text>
+    <text x="35" y="74" class="contact-sub">Have an exciting full-stack idea, AI project, or just want to chat? Reach out anytime!</text>
+
+    <!-- Social Action Buttons with 100% Exact Center Text Alignment -->
+    <g transform="translate(35, 94)">
+      <!-- GitHub Button -->
+      <a href="https://github.com/dishaaarao" target="_blank">
+        <rect x="0" width="135" height="36" rx="18" fill="#FACC15"/>
+        <text x="67.5" y="23" class="btn-text-dark">⚡ GitHub Profile</text>
+      </a>
+
+      <!-- LinkedIn Button -->
+      <a href="https://www.linkedin.com/in/disha-rao-940558318/" target="_blank">
+        <rect x="148" width="135" height="36" rx="18" fill="#FFFFFF"/>
+        <text x="215.5" y="23" class="btn-text-dark">💼 LinkedIn</text>
+      </a>
+
+      <!-- Email Button -->
+      <a href="mailto:raodisha33@gmail.com">
+        <rect x="296" width="135" height="36" rx="18" fill="#34D399"/>
+        <text x="363.5" y="23" class="btn-text-dark">✉️ Send Email</text>
+      </a>
+
+      <!-- Portfolio Button -->
+      <a href="https://disharao.me/" target="_blank">
+        <rect x="444" width="145" height="36" rx="18" fill="#F472B6"/>
+        <text x="516.5" y="23" class="btn-text-light">✨ Portfolio Site</text>
+      </a>
+    </g>
+
+    <!-- Right Badge Sticker -->
+    <g transform="translate(670, 22) rotate(8)">
+      <circle cx="30" cy="30" r="28" fill="#FACC15"/>
+      <circle cx="30" cy="30" r="24" fill="none" stroke="#CA8A04" stroke-linecap="round" stroke-dasharray="4,3"/>
+      <text x="30" y="27" font-family="'Outfit', sans-serif" font-weight="800" font-size="9" fill="#18181B" text-anchor="middle">OPEN FOR</text>
+      <text x="30" y="37" font-family="'Outfit', sans-serif" font-weight="800" font-size="9" fill="#18181B" text-anchor="middle">COLLAB ✦</text>
+    </g>
+  </g>
+</svg>
